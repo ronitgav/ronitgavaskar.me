@@ -1,0 +1,51 @@
+/* your styles go here */
+#logo {
+    background: black;
+    
+}
+
+.navbar {
+    padding-top: 1px;
+}
+
+#info {
+    font-family: 'Indie Flower', cursive;
+}
+
+#sec-column, #last-column {
+    font-family: 'Indie Flower', cursive;
+    height: 53vh;
+}
+
+#services ul {
+    list-style: none;
+}
+
+.thumbnail {
+    border: 1px solid black;
+    height: 34vh;
+}
+
+.b1, .b2 {
+    border-left: 1px solid #113368;
+    border-bottom: 1px solid #113368;
+    border-top: 1px solid #113368
+}
+
+.b2 {
+    border-right: 1px solid #113368
+}
+
+.contact h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 100;
+    border-top: 1px solid black;
+    width: 60%;
+}
+
+#resume img {
+    width: 50%;
+    height: 50%;
+}
+
