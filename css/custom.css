@@ -45,7 +45,17 @@
 }
 
 #resume img {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+.card {
+    width: 55%;
+    padding-bottom: 20px;
+    
+ }
+
+div.card {
+    border: 1px solid #990000;   
 }
 
