@@ -15,26 +15,23 @@
 #sec-column, #last-column {
     font-family: 'Indie Flower', cursive;
     height: 53vh;
+    color: #990000;
 }
 
 #services ul {
     list-style: none;
 }
 
-.thumbnail {
-    border: 1px solid black;
-    height: 34vh;
-}
 
+/*
 .b1, .b2 {
     border-left: 1px solid #113368;
     border-bottom: 1px solid #113368;
     border-top: 1px solid #113368
 }
+*/
 
-.b2 {
-    border-right: 1px solid #113368
-}
+
 
 .contact h1 {
     font-family: 'Roboto Slab', serif;
@@ -55,7 +52,21 @@
     
 }
 
+@media screen and (max-width: 480px) {
+    #m, #p {
+        font-size: 16px;
+        align-content: center;
+    } 
+    
+    #n {
+        font-size: 24px;
+        align-content: center;
+    }
+}
+
 div.card {
     border: 1px solid #990000;
 }
+
+
 
