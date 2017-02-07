@@ -129,7 +129,7 @@ UNIVERSAL SECTION STYLES
 }
 .text-gradient {
   background: #13836c;
-  color: #fff;
+  color: #990000;
 /*
   background-image: -webkit-linear-gradient(top, #13836c 0%, #45b59e 100%);
   background-image: linear-gradient(to bottom, #13836c 0%, #45b59e 100%);
@@ -139,14 +139,14 @@ UNIVERSAL SECTION STYLES
     
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
 background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(##f4f0f2, #ffffff,#e8effd, #E0EAFC, #CFDEF3); /* FF3.6-15 */
+background: -webkit-linear-gradient(#ffffff, #e8effd,#E0EAFC, #CFDEF3); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(#ffffff, #e8effd,#E0EAFC, #CFDEF3); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8E0E00', endColorstr='#1F1C18',GradientType=0 ); /* IE6-9 */
 
 }
 .text-gradient h2 {
-  border-color: #fff;
+  border-color: #990000;
 }
 .text-gray {
   background: #f7f7f7;
@@ -182,7 +182,8 @@ INTRO
 }
 #intro .item {
   height: 100%;
-  background: url('https://images.unsplash.com/photo-1468111144299-2701d76a65ae?dpr=2&auto=format&fit=crop&w=767&h=959&q=80&cs=tinysrgb&crop=') center center no-repeat;
+  background: url('') center center no-repeat;
+  background: linear-gradient(#abbaab, #ffffff);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -204,17 +205,16 @@ INTRO
   font-size: 60px;
   color: #7F0000;
   margin-bottom: 40px;
-  font-weight: 700;
+  font-weight: 200;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
   width: 50%;
   margin-left: 25%;  
-  text-align: center;
-  background: black;  
+  text-align: center;  
   border-radius: 30%;
   padding: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', serif;
 /*
   text-shadow: 
       -1px -1px 0 #990000,  
@@ -222,7 +222,8 @@ INTRO
     -1px 1px 0 #990000,
      1px 1px 0 #990000;
 */
-  font-style: italic;  
+
+
     
 }
 @media (max-width: 991px) {
@@ -238,17 +239,15 @@ INTRO
 #intro .item h2 {
   color: #7f0000;
   margin-bottom: 120px;
-  font-weight: 400;
+  font-weight: 100;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
-  background: black;  
   border-radius: 30%;
   padding: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', serif;
   width: 60%;
   margin-left: 20%;
-  font-style: italic;
   padding: 20px;
 }
 @media (max-width: 767px) {
@@ -443,6 +442,8 @@ WORKS / REFERENCES
   height: 100%;
   overflow: hidden;
 }
+
+
 .reference-item .reference a .overlay {
   display: block;
   position: absolute;
@@ -1272,7 +1273,7 @@ body {
   font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #ffffff;
+  background: linear-gradient(#ffffff, #f4f0f2, #ECE9E6,#f4f0f2, #ffffff);
 }
 a {
   color: #990000;
