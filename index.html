@@ -112,8 +112,8 @@ _________________________________________________________ -->
                             <div data-animate="fadeInDown" class="logo">
                                 
                             </div>
-                            <h1 data-animate="fadeInDown">RONIT GAVASKAR</h1>
-                            <h2 data-animate="slideInUp">I'm a passionate full-stack developer currently pursuing a degree in Computer Science at Purdue University</h2>
+                            <h1 class="col-md-12"data-animate="fadeInDown">RONIT GAVASKAR</h1>
+                            <h2 class="col-md-12" data-animate="slideInUp">I'm a passionate full-stack developer currently pursuing a degree in Computer Science at Purdue University</h2>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ _________________________________________________________ -->
                                 
                                 <p>Fun Facts about Me: </p>
                                 <ul>
-                                    <li>I'm from Bay Area, California</li>
+                                    <li>I'm from Bay Area</li>
                                     <li>I've lived in several countries throughout my life such as: 
                                         <p>  <strong>US, India, Singapore</strong></p>
                                     </li>
@@ -250,6 +250,7 @@ _________________________________________________________ -->
                             <p>Some of my Programming Skills include: </p>
                             <div class="row b1">
                                 <ul class="col-md-6 col-sm-12">
+                                   <br><br>
                                     <li>Java</li>
                                     <li>C</li>
                                     <li>Python</li>
@@ -258,6 +259,7 @@ _________________________________________________________ -->
                                 </ul>
 
                                 <ul class="col-md-6 col-sm-12">
+                                    <br><br>
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>Javascript</li>
@@ -274,6 +276,7 @@ _________________________________________________________ -->
                             <p>My Classes include: </p>
                             <div class="row b2">
                             <ul class="col-md-6" >
+                               <br><br>
                                 <li>Data Structures and Algorithms</li>
                                 <li>Object Oriented Programming</li>
                                 <li>Linear Algebra</li>
@@ -281,6 +284,7 @@ _________________________________________________________ -->
                             
                             
                             <ul class="col-md-6">
+                               <br><br>
                                 <li>Computer Architecture</li>
                                 <li>Information Systems</li>
                                 <li>Systems Programming</li>     
@@ -293,7 +297,7 @@ _________________________________________________________ -->
 
                     <div class="text-center">
 
-                        <p class="lead">Would you like to know more or just discuss something?</p>
+                        <p class="lead">Would you like to know more or discuss something?</p>
 
                         <p><a href="#contact" class="btn btn-default btn-lg scrollTo">Contact me</a>
                         </p>
@@ -312,6 +316,7 @@ _________________________________________________________ -->
         <!-- *** TESTIMONIALS ***
 _________________________________________________________ -->
 
+<!--
         <div class="section text-gray" id="testimonials" data-animate="fadeInUp">
 
             <div class="container">
@@ -324,11 +329,12 @@ _________________________________________________________ -->
                     </div>
 
                      </div>
+-->
                 <!-- /.12 -->
-            </div>
+<!--            </div>-->
             <!-- /.container -->
 
-        </div>
+<!--        </div>-->
         <!-- /.section -->
 
         <!-- *** TESTIMONIALS END *** -->
@@ -378,7 +384,8 @@ _________________________________________________________ -->
                         <div class="reference-item" data-category="webdesign">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/website.png" class="img-responsive" alt="" />
+                                    <img class="img-responsive" alt="" /> 
+<!--                                    i took off my old image here -->
 
                                     <div class="overlay">
                                         <h3 class="reference-title">ronitgavaskar.me</h3> 
@@ -386,7 +393,7 @@ _________________________________________________________ -->
                                     </div>
                                 </a>
 
-                                <div class="sr-only reference-description" data-images="img/Screen%20Shot%202016-12-28%20at%208.26.14%20PM.png, img/website.png">
+                                <div class="sr-only reference-description" data-images="">
 
                                     <p>Out of all the websites I built, I consider this one of my greatest achievements because it gives my readers a look at my personality overall.</p>
 
@@ -562,12 +569,12 @@ _________________________________________________________ -->
 
                         <div class="reference-item" data-category="webdesign">
                             <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-8.jpg" class="img-responsive" alt="" />
+                                <a href="https://rawgit.com/ronitgav/Tip-Calculator/master/tip.html">
+                                    <img src="img/Screen%20Shot%202017-02-04%20at%2011.13.03%20AM.png" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
-                                        <p>Short project description goes here...</p>
+                                        <h3 class="reference-title">Tip Calculator</h3> 
+                                        <p>This application will help you calculate the tip on your next restaurant order!</p>
                                     </div>
                                 </a>
 
@@ -608,7 +615,7 @@ _________________________________________________________ -->
                `<div class="mb20">
                         <h2 class="title" data-animate="fadeInUp">MY RESUME<br /></h2>
 
-                        <p class="lead text-center" data-animate="fadeInUp"><img src="img/resume.png"></p>
+                        <p class="lead text-center col-lg-12 col-md-12" data-animate="fadeInUp"><img src="img/resume.png"></p>
                     </div>
                
                 
@@ -623,7 +630,8 @@ _________________________________________________________ -->
         
         <!-- *** CONTACT ***
 _________________________________________________________ -->
-<div class="section" id="contact" data-animate="bounceIn">
+
+        <div class="section" id="contact" data-animate="bounceIn">
             <div class="container">
                 <div class="col-md-12">
 
@@ -631,16 +639,16 @@ _________________________________________________________ -->
                     <h2 class="title">Contact me</h2>
                     
                     <div class="card container">
-                        <h1>Ronit Gavaskar</h1>
-                        <h4>(408)431-5430</h4>
-                        <h4>ronitgavaskar@gmail.com</h4>
+                        <h1 id="n">Ronit Gavaskar</h1>
+                        <h4 id="p">(408)431-5430</h4>
+                        <h4 id="m">ronitgavaskar@gmail.com</h4>
                         
                    
                     <a href="https://www.linkedin.com/pub/ronit-gavaskar/95/376/85b">
 
                               <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Ronit Gavaskar's profile on LinkedIn">
 
-                        </a>
+                    </a>
 
                         
                         
